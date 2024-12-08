@@ -5,7 +5,7 @@ const express = require("express");
 const multer = require("multer"); // Fayllarni yuklash uchun kerak
 const path = require("path");
 
-const server = jsonServer.create();
+const server = express();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
@@ -38,10 +38,7 @@ server.use(
 
 server.use(router);
 
-// JSON Serverni ishga tushirish
-server.listen(3000, () => {
-	console.log("JSON Server is running at http://localhost:3000");
-});
-
-// Export the Server API
-module.exports = server;
+// Export the server for Vercel
+module.exports = (req, res) => {
+	server(req, res);
+};
