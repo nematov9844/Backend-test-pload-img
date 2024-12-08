@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="laptopForm">
+        <input type="text" id="laptopName" placeholder="Laptop Name" required />
+        <input type="number" id="laptopPrice" placeholder="Price" required />
+        <textarea id="laptopDescription" placeholder="Description"></textarea>
+        <input type="file" id="laptopImage" accept="image/*" />
+        <button type="submit">Add Laptop</button>
+      </form>
+      
+      <img src="http://localhost:3000/uploads/08a2b31c3f88ba2cfa8c742e0b8ebc49" alt="salom">
+      <script>
+   document.getElementById('laptopForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById('laptopName').value;
+  const price = document.getElementById('laptopPrice').value;
+  const description = document.getElementById('laptopDescription').value;
+  const imageFile = document.getElementById('laptopImage').files[0];
+
+  const formData = new FormData();
+  formData.append('image', imageFile);
+
+  try {
+    // Rasmni yuklash
+    const uploadResponse = await fetch('http://localhost:3000/upload', {
+      method: 'POST',
+      body: formData,
+    });
+    const uploadData = await uploadResponse.json();
+    const imageUrl = `http://localhost:3000${uploadData.url}`;
+
+    // Laptop ma’lumotlarini qo‘shish
+    const laptopData = {
+      name: name,
+      price: price,
+      description: description,
+      image: imageUrl,
+    };
+
+    const response = await fetch('http://localhost:3000/laptops', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(laptopData),
+    });
+
+    const result = await response.json();
+    console.log('Laptop added:', result);
+  } catch (err) {
+    console.error('Error:', err);
+  }
+});
+
+      </script>
+</body>
+</html>

@@ -1,0 +1,357 @@
+{
+	"accessories": [
+		{
+			"id": 1,
+			"name": "Apple AirPods Pro 2",
+			"rating": 4.8,
+			"sold": 530,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Apple",
+			"type": "Wireless Earbuds",
+			"batteryLife": "6 hours",
+			"noiseCancellation": true,
+			"caseType": "MagSafe Charging Case",
+			"compatibility": "iOS, Android",
+			"weight": "56.4 grams",
+			"releaseDate": "9/23/2022",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://example.com/images/airpods-pro2-front.jpg",
+				"https://example.com/images/airpods-pro2-side.jpg",
+				"https://example.com/images/airpods-pro2-back.jpg",
+				"https://example.com/images/airpods-pro2-case.jpg"
+			],
+			"similarProducts": ["Samsung Galaxy Buds Pro", "Sony WF-1000XM4"]
+		},
+		{
+			"id": 2,
+			"name": "Logitech MX Master 3S",
+			"rating": 4.7,
+			"sold": 320,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Logitech",
+			"type": "Wireless Mouse",
+			"batteryLife": "70 days",
+			"connectivity": "Bluetooth, USB Receiver",
+			"dpi": "8000",
+			"weight": "141 grams",
+			"releaseDate": "6/7/2022",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://example.com/images/mx-master3s-front.jpg",
+				"https://example.com/images/mx-master3s-side.jpg",
+				"https://example.com/images/mx-master3s-back.jpg",
+				"https://example.com/images/mx-master3s-top.jpg"
+			],
+			"similarProducts": ["Razer Basilisk X", "Microsoft Arc Mouse"]
+		},
+		{
+			"id": 3,
+			"name": "Samsung T7 Portable SSD",
+			"rating": 4.9,
+			"sold": 650,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Samsung",
+			"type": "Portable SSD",
+			"storage": "1TB",
+			"speed": "1050 MB/s",
+			"connectivity": "USB-C, USB 3.2",
+			"weight": "58 grams",
+			"releaseDate": "8/25/2020",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://example.com/images/samsung-t7-front.jpg",
+				"https://example.com/images/samsung-t7-side.jpg",
+				"https://example.com/images/samsung-t7-back.jpg",
+				"https://example.com/images/samsung-t7-box.jpg"
+			],
+			"similarProducts": ["SanDisk Extreme Portable SSD", "WD My Passport SSD"]
+		},
+		{
+			"id": 4,
+			"name": "Anker PowerCore 20100mAh",
+			"rating": 4.6,
+			"sold": 400,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Anker",
+			"type": "Power Bank",
+			"capacity": "20100mAh",
+			"output": "18W",
+			"connectivity": "USB-A, USB-C",
+			"weight": "356 grams",
+			"releaseDate": "3/5/2021",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://example.com/images/powercore20100-front.jpg",
+				"https://example.com/images/powercore20100-side.jpg",
+				"https://example.com/images/powercore20100-back.jpg",
+				"https://example.com/images/powercore20100-box.jpg"
+			],
+			"similarProducts": ["Xiaomi Mi Power Bank 3", "RAVPower 20000mAh"]
+		}
+	],
+	"cameras": [
+		{
+			"id": 1,
+			"name": "Canon EOS R5",
+			"rating": 4.9,
+			"sold": 150,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Canon",
+			"type": "Mirrorless Camera",
+			"sensor": "45MP Full Frame",
+			"video": "8K",
+			"stabilization": "5-axis In-body",
+			"weight": "738 grams",
+			"releaseDate": "7/30/2020",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://example.com/images/canon-r5-front.jpg",
+				"https://example.com/images/canon-r5-side.jpg",
+				"https://example.com/images/canon-r5-back.jpg",
+				"https://example.com/images/canon-r5-box.jpg"
+			],
+			"similarProducts": ["Sony A7 IV", "Nikon Z7 II"]
+		},
+		{
+			"id": 2,
+			"name": "Sony A7 IV",
+			"rating": 4.8,
+			"sold": 120,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Sony",
+			"type": "Mirrorless Camera",
+			"sensor": "33MP Full Frame",
+			"video": "4K",
+			"stabilization": "5-axis In-body",
+			"weight": "658 grams",
+			"releaseDate": "10/21/2021",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://example.com/images/sony-a7iv-front.jpg",
+				"https://example.com/images/sony-a7iv-side.jpg",
+				"https://example.com/images/sony-a7iv-back.jpg",
+				"https://example.com/images/sony-a7iv-box.jpg"
+			],
+			"similarProducts": ["Canon EOS R6", "Nikon Z6 II"]
+		}
+	],
+	"laptops": [
+		{
+			"id": 1,
+			"name": "Dell XPS 13 Plus",
+			"rating": 4.8,
+			"sold": 310,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Dell",
+			"model": "XPS 13 Plus",
+			"screenSize": "13.4 Inches",
+			"processor": "Intel Core i7-1260P",
+			"ram": "16GB",
+			"storage": "512GB SSD",
+			"weight": "1.24 kg",
+			"batteryLife": "Up to 12 hours",
+			"releaseDate": "2022-03-15",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://cdn.dell.com/xps13plus-1.jpg",
+				"https://cdn.dell.com/xps13plus-2.jpg",
+				"https://cdn.dell.com/xps13plus-3.jpg",
+				"https://cdn.dell.com/xps13plus-4.jpg"
+			],
+			"similarProducts": ["HP Spectre x360", "MacBook Air M2"]
+		},
+		{
+			"id": 2,
+			"name": "Apple MacBook Air M2",
+			"rating": 4.9,
+			"sold": 580,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Apple",
+			"model": "MacBook Air M2",
+			"screenSize": "13.6 Inches",
+			"processor": "Apple M2 Chip",
+			"ram": "8GB",
+			"storage": "256GB SSD",
+			"weight": "1.24 kg",
+			"batteryLife": "Up to 18 hours",
+			"releaseDate": "2022-07-08",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://store.apple.com/macbook-air-m2-1.jpg",
+				"https://store.apple.com/macbook-air-m2-2.jpg",
+				"https://store.apple.com/macbook-air-m2-3.jpg",
+				"https://store.apple.com/macbook-air-m2-4.jpg"
+			],
+			"similarProducts": ["Dell XPS 13 Plus", "Lenovo Yoga Slim 7i"]
+		}
+	],
+	"phones": [
+		{
+			"id": 1,
+			"name": "iPhone 15 Pro Max",
+			"rating": 4.9,
+			"sold": 800,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Apple",
+			"model": "15 Pro Max",
+			"screenSize": "6.7 Inches",
+			"processor": "A17 Pro",
+			"storage": "256GB",
+			"camera": "48MP Triple Camera",
+			"batteryLife": "29 hours",
+			"releaseDate": "2023-09-22",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://store.apple.com/iphone-15-pro-max-1.jpg",
+				"https://store.apple.com/iphone-15-pro-max-2.jpg",
+				"https://store.apple.com/iphone-15-pro-max-3.jpg",
+				"https://store.apple.com/iphone-15-pro-max-4.jpg"
+			],
+			"similarProducts": ["Samsung Galaxy S23 Ultra", "Google Pixel 8 Pro"]
+		}
+	],
+	"gaming": [
+		{
+			"id": 1,
+			"name": "PlayStation 5",
+			"rating": 4.9,
+			"sold": 1200,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Sony",
+			"type": "Gaming Console",
+			"storage": "825GB SSD",
+			"resolution": "4K HDR",
+			"controllers": "DualSense Wireless Controller",
+			"weight": "4.5 kg",
+			"releaseDate": "2020-11-12",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://cdn.sony.com/ps5-1.jpg",
+				"https://cdn.sony.com/ps5-2.jpg",
+				"https://cdn.sony.com/ps5-3.jpg",
+				"https://cdn.sony.com/ps5-4.jpg"
+			],
+			"similarProducts": ["Xbox Series X", "Nintendo Switch OLED"]
+		},
+		{
+			"id": 2,
+			"name": "Xbox Series X",
+			"rating": 4.8,
+			"sold": 950,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Microsoft",
+			"type": "Gaming Console",
+			"storage": "1TB SSD",
+			"resolution": "4K UHD",
+			"controllers": "Xbox Wireless Controller",
+			"weight": "4.45 kg",
+			"releaseDate": "2020-11-10",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://cdn.microsoft.com/xbox-series-x-1.jpg",
+				"https://cdn.microsoft.com/xbox-series-x-2.jpg",
+				"https://cdn.microsoft.com/xbox-series-x-3.jpg",
+				"https://cdn.microsoft.com/xbox-series-x-4.jpg"
+			],
+			"similarProducts": ["PlayStation 5", "Nintendo Switch OLED"]
+		}
+	],
+	"smartWatch": [
+		{
+			"id": 1,
+			"name": "Apple Watch Series 9",
+			"rating": 4.8,
+			"sold": 600,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Apple",
+			"type": "Smart Watch",
+			"screenSize": "1.9 Inches",
+			"connectivity": "GPS, Cellular",
+			"features": ["Blood Oxygen", "ECG", "Fitness Tracking"],
+			"weight": "40 grams",
+			"releaseDate": "2023-09-15",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://store.apple.com/watch-series-9-1.jpg",
+				"https://store.apple.com/watch-series-9-2.jpg",
+				"https://store.apple.com/watch-series-9-3.jpg",
+				"https://store.apple.com/watch-series-9-4.jpg"
+			],
+			"similarProducts": ["Samsung Galaxy Watch 6", "Fitbit Sense 2"]
+		},
+		{
+			"id": 2,
+			"name": "Samsung Galaxy Watch 6",
+			"rating": 4.7,
+			"sold": 520,
+			"inStock": true,
+			"guarantee": true,
+			"freeDelivery": true,
+			"brand": "Samsung",
+			"type": "Smart Watch",
+			"screenSize": "1.5 Inches",
+			"connectivity": "Bluetooth, LTE",
+			"features": ["Sleep Tracking", "Heart Rate", "Stress Monitoring"],
+			"weight": "28 grams",
+			"releaseDate": "2023-07-27",
+			"isFavorite": false,
+			"isInCart": false,
+			"images": [
+				"https://cdn.samsung.com/galaxy-watch-6-1.jpg",
+				"https://cdn.samsung.com/galaxy-watch-6-2.jpg",
+				"https://cdn.samsung.com/galaxy-watch-6-3.jpg",
+				"https://cdn.samsung.com/galaxy-watch-6-4.jpg"
+			],
+			"similarProducts": ["Apple Watch Series 9", "Garmin Venu 2 Plus"]
+		}
+	],
+	"products": [
+		{
+			"name": "hello world",
+			"image": "http://localhost:3000/uploads/6c91f64af0581702a17cbeb697abdb81",
+			"id": 1
+		},
+		{
+			"name": "salom",
+			"image": "http://localhost:3000/uploads/08a2b31c3f88ba2cfa8c742e0b8ebc49",
+			"id": 2
+		}
+	]
+}
